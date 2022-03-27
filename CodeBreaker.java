@@ -4,6 +4,6 @@ public class CodeBreaker//the main class in which everything is brought together
 {
     public static void main(String[] args) 
     {
-    GameBoard board = new GameBoard();//Calls GameBoard to create the game
+        DifficultySelect start = new DifficultySelect();//Creates an instance of the difficulty select class to start the game
     }
 }
